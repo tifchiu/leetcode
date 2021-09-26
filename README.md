@@ -2,6 +2,11 @@
 Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.com/problem-list/wpwgkgt/)
 
 ## Problems done:
+### [Rotate Image](https://leetcode.com/problems/rotate-image/)
+Given an `n x n` `matrix` representing an image, rotate the image by 90 degrees (clockwise).
+- Perform a matrix transpose on `matrix` (i.e. flipping it along its diagonal)
+- Reverse every row in the transposed matrix.
+- Runtime: `O(n^2)` (or linear in the number of cells in `matrix`).
 ### [Pow(x,n)](https://leetcode.com/problems/powx-n)
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
