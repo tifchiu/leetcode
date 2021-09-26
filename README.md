@@ -7,6 +7,11 @@ Given an `n x n` `matrix` representing an image, rotate the image by 90 degrees 
 - Perform a matrix transpose on `matrix` (i.e. flipping it along its diagonal)
 - Reverse every row in the transposed matrix.
 - Runtime: `O(n^2)` (or linear in the number of cells in `matrix`).
+### [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+- Preprocessing: sort `intervals` by `starti` using merge sort.
+- Using a greedy algorithm, iterate through the array to find the largest `y` such that `intervals[i]` to `intervals[y]` are all in the same overlapping interval.
+- Runtime: `O(n log n)`
 ### [Pow(x,n)](https://leetcode.com/problems/powx-n)
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
