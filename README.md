@@ -3,4 +3,11 @@ Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.
 
 ## Problems done:
 ### Pow(x,n)
-- Used the fast modular exponentiation algorithm to implement `x^n` in `O(log n)` time.
+Implement `x^n`.
+- Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
+- Runtime: `O(log n)`
+### Validate Binary Search Tree
+Given the `root` of a binary tree, determine if it is a valid binary search tree.
+- Store node values in a list via an inorder, depth-first traversal of the binary tree.
+- Determime whether the resulting list is sorted in strictly increasing order. If so, it is a valid BST.
+- Runtime: `O(n)` where `n` is the number of nodes in the tree rooted at `root`.
