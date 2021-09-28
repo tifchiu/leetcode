@@ -10,10 +10,10 @@ Given an `n x n` `matrix` representing an image, rotate the image by 90 degrees 
 ### [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 Given a string `s`, find the length of the longest substring without repeating characters.
 - Utilize a sliding window algorithm and hashtable.
-- We iterate through `s` exactly once. We start with a pointer `start` at the beginning of the string, and a `max_length` and `current_length` both initialized as 1.
+- Iterate through `s` exactly once. Start with a pointer `start` at the beginning of the string, and a `max_length` and `current_length` both initialized as 1.
 - For each character `c` in `s`, if `c` has not yet occurred in our traversal of `s`, add `c` to the`c` hashtable with value equal to its index in `s`. Increment `current_length`.
 - If `c` exists in the hashtable, we now have a repeated element. Compare `current_length` with `max_length` and take the larger to be the new `max_length`. Move `begin` past `hashtable[c]`, and update `hashtable[c]` to be the current index.
-- Runtime `O(n)` where `n` is the length of the string `s`.
+- Runtime: `O(n)` where `n` is the length of the string `s`.
 ### [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 - Preprocessing: sort `intervals` by `starti` using merge sort.
