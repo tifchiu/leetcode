@@ -19,6 +19,11 @@ Given an array of `intervals` where `intervals[i] = [starti, endi]`, merge all o
 - Preprocessing: sort `intervals` by `starti` using merge sort.
 - Using a greedy algorithm, iterate through the array to find the largest `y` such that `intervals[i]` to `intervals[y]` are all in the same overlapping interval.
 - Runtime: `O(n log n)`
+### [Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+Given the `head` of a linked list, remove the `n`-th node from the end of the list and return its head.
+- Keep two pointers, `p1`, `p2` with `p2` at `n` nodes ahead of `p1`.
+- When `p2` is at the end of the linked list, `p1->next` will be the `n`-th node from the end. Set `p1->next` to be `p1->next->next`.
+- Runtime: `O(m)` where `m` is the size of the linked list.
 ### [Pow(x,n)](https://leetcode.com/problems/powx-n)
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
