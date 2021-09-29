@@ -2,11 +2,18 @@
 Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.com/problem-list/wpwgkgt/)
 
 ## Problems done:
-##### Table of Contents
-- [Paste Your Document In Here](#paste-your-document-in-here)
-  * [And a table of contents](#and-a-table-of-contents)
-  * [On the right](#on-the-right)
+- [Rotate Image](#rotate-image)
+- [Longest Substring Without Repeating Characters](#longest-substring-without-repeating-characters)
+- [Merge Intervals](#merge-intervals)
+- [Remove N-th Node From End of List](#remove-n-th-node-from-end-of-list)
+- [Group Anagrams](#group-anagrams)
+- [Insert Interval](#insert-interval)
+- [Pow(x,n)](#pow-x-n-)
+- [Validate Binary Search Tree](#validate-binary-search-tree)
+- [Valid Parenthesis](#valid-parenthesis)
+- [Add Two Numbers](#add-two-numbers)
 
+---
 
 ### [Rotate Image](https://leetcode.com/problems/rotate-image/)
 Given an `n x n` `matrix` representing an image, rotate the image by 90 degrees (clockwise).
