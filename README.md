@@ -24,6 +24,10 @@ Given the `head` of a linked list, remove the `n`-th node from the end of the li
 - Keep two pointers, `p1`, `p2` with `p2` at `n` nodes ahead of `p1`.
 - When `p2` is at the end of the linked list, `p1->next` will be the `n`-th node from the end. Set `p1->next` to be `p1->next->next`.
 - Runtime: `O(m)` where `m` is the size of the linked list.
+### [Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/)
+Given an array of strings `strs`, group the anagrams together.
+- iterate through `strs` and sort each string. Store the sorted string in a map mapping to a vector of the strings in `strs` that are anagrams.
+- Runtime: `O(n*k*log k)` where `k` is the length of the longest string. 
 ### [Pow(x,n)](https://leetcode.com/problems/powx-n)
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
