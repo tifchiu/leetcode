@@ -3,18 +3,10 @@ Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.
 
 ## Problems done:
 ##### Table of Contents
-- [[Rotate Image](https://leetcode.com/problems/rotate-image/)](#-rotate-image--https---leetcodecom-problems-rotate-image--)
-- [[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)](#-longest-substring-without-repeating-characters--https---leetcodecom-problems-longest-substring-without-repeating-characters--)
-- [[Merge Intervals](https://leetcode.com/problems/merge-intervals/)](#-merge-intervals--https---leetcodecom-problems-merge-intervals--)
-- [[Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)](#-remove-n-th-node-from-end-of-list--https---leetcodecom-problems-remove-nth-node-from-end-of-list--)
-- [[Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/)](#-group-anagrams--https---leetcodecom-problems-group-anagrams-submissions--)
-- [[Insert Interval](https://leetcode.com/problems/insert-interval/submissions/)](#-insert-interval--https---leetcodecom-problems-insert-interval-submissions--)
-- [[Pow(x,n)](https://leetcode.com/problems/powx-n)](#-pow-x-n---https---leetcodecom-problems-powx-n-)
-- [[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)](#-validate-binary-search-tree--https---leetcodecom-problems-validate-binary-search-tree--)
-- [[Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/)](#-valid-parenthesis--https---leetcodecom-problems-valid-parentheses--)
-- [[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)](#-add-two-numbers--https---leetcodecom-problems-add-two-numbers--)
+- [Paste Your Document In Here](#paste-your-document-in-here)
+  * [And a table of contents](#and-a-table-of-contents)
+  * [On the right](#on-the-right)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### [Rotate Image](https://leetcode.com/problems/rotate-image/)
 Given an `n x n` `matrix` representing an image, rotate the image by 90 degrees (clockwise).
