@@ -8,7 +8,7 @@ Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.
 - [Remove N-th Node From End of List](#remove-n-th-node-from-end-of-list)
 - [Group Anagrams](#group-anagrams)
 - [Insert Interval](#insert-interval)
-- [Pow(x,n)](#pow-x-n-)
+- [Pow(x,n)](#powxn)
 - [Validate Binary Search Tree](#validate-binary-search-tree)
 - [Valid Parenthesis](#valid-parenthesis)
 - [Add Two Numbers](#add-two-numbers)
