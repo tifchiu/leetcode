@@ -28,6 +28,11 @@ Given the `head` of a linked list, remove the `n`-th node from the end of the li
 Given an array of strings `strs`, group the anagrams together.
 - iterate through `strs` and sort each string. Store the sorted string in a map mapping to a vector of the strings in `strs` that are anagrams.
 - Runtime: `O(n*k*log k)` where `k` is the length of the longest string. 
+### [Insert Interval](https://leetcode.com/problems/insert-interval/submissions/)
+Given an array of non-overlapping intervals in ascending order (based on the start of the intervals), insert a new interval such that the array is still in ascending order and there are no overlapping intervals.
+- Since the array is sorted by `start` coordinate, we run a binary search to see where the new interval should be inserted.
+- Insert the new interval, and then run `merge` (from solution for [Merge Intervals](https://github.com/tiffxnychiu/leetcode/blob/8b2000af19a2a9f5106ba920cccc1ff31d7da991/mergeIntervals.cpp#L56) 
+- Runtime: `O(n log n)`
 ### [Pow(x,n)](https://leetcode.com/problems/powx-n)
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
