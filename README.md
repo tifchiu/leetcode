@@ -9,6 +9,7 @@ Tracking my progress on the [LeetCode Top Interview Questions](https://leetcode.
 - [Group Anagrams](#group-anagrams)
 - [Insert Interval](#insert-interval)
 - [Pow(x,n)](#powxn)
+- [Find First and Last Position of Element in Sorted Array](#find-first-and-last-position-of-element-in-sorted-array)
 - [Validate Binary Search Tree](#validate-binary-search-tree)
 - [Valid Parenthesis](#valid-parenthesis)
 - [Add Two Numbers](#add-two-numbers)
@@ -50,6 +51,10 @@ Given an array of non-overlapping intervals in ascending order (based on the sta
 Implement `x^n`.
 - Use the [fast modular exponentiation](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/fast-modular-exponentiation) algorithm
 - Runtime: `O(log n)`
+### [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
+- Use a modified binary search to find the leftmost and rightmost occurences of `target` in `nums`
+- Runtime: `O(log n)`.
 ### [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 Given the `root` of a binary tree, determine if it is a valid binary search tree.
 - Store node values in a list via an inorder, depth-first traversal of the binary tree.
